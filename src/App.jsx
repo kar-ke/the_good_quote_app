@@ -1,4 +1,5 @@
 import { useState } from "react";
+import image from "../src/assets/quotefevicon.png";
 import "./App.css";
 
 function App() {
@@ -21,11 +22,7 @@ function App() {
 	return (
 		<div className="app">
 			<div className="logocontainer">
-				<img
-					src="../src/assets/quotefevicon.png"
-					alt="logoo"
-					className="w-16"
-				/>
+				<img src={image} alt="logoo" className="w-16" />
 				<h1 className="text-3xl text-white">The Good Quote</h1>
 			</div>
 			<div className="card mb-32">
