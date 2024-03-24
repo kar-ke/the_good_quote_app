@@ -21,7 +21,7 @@ function App() {
 	return (
 		<div className="app">
 			<div className="logocontainer">
-				<img src="../src/assets/quotefevicon.png" className="w-16" />
+				<img src="../src/assets/quotefevicon.png" alt="logoo" className="w-16" />
 				<h1 className="text-3xl text-white">The Good Quote</h1>
 			</div>
 			<div className="card mb-32">
